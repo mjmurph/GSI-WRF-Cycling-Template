@@ -26,7 +26,7 @@ export HDF5="/share/apps/compute/hdf5/intel2019/intelmpi"
 # WRFDA specific, from Michael Murphy
 export BUFR=1
 export CRTM=1
-export NETCDF_classic=1 # have to turn classic on or it complains
+export NETCDF_classic=1 # turn classic on or it complains and deletes configure.wrf
 
 # Set log report, named with compiler / netcdf version 
 export log_version="intelmpi_2019.5.281_netcdf_4.7.4"
